@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-## Date:
+## Date:09.05.2025
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -28,9 +28,90 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+`````
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Indian 7s Restaurant | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-color: blanchedalmond;">
+  
+  <header>
+    <h1 style="text-align: center;">Indian 7s Restaurant</h1>
+    <div style="text-align: center;">
+          <img  src ="Ethos+1101211900.png" alt="Centered Image" height="630px" width="1400" style="text-align: center;color: sandybrown;" draggable="false" />
+
+    </div>
+    
+  </header>
+
+  <section class="hero">
+    <h2>Fresh. Authentic. Indian.</h2>
+    <p>Bringing you soulful dishes from the heart of India.</p>
+  </section>
+<nav>
+      <a href="home.html" style="margin: 0 20px; text-decoration: none;">Home</a><br />
+      <a href="menu.html" style="margin: 0 20px; text-decoration: none;">Menu</a><br />
+    </nav>
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Indian 7s Restaurant is a culinary journey through India’s vibrant flavors. We craft every dish with passion, culture, and spice.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Indian 7s Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+``````
+`````
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Menu | Indian 7s Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-color: blanchedalmond;">
+  <header>
+    <h1 style="text-align: center;" >Our Menu</h1>
+    <div style="text-align: center;">
+        <img  src ="Spicy-Penne-Pasta_-done.png" alt="Centered Image" height="630px" width="1400" style="text-align: center;color: sandybrown;" draggable="false" />
+    </div>
+    
+    
+  </header>
+
+  <section class="menu">
+    <h2>Signature Dishes</h2>
+
+    <ul>
+      <li><strong>Butter Chicken</strong> – Creamy and rich. ₹350</li>
+      <li><strong>Paneer Tikka</strong> – Grilled cottage cheese. ₹280</li>
+      <li><strong>Masala Dosa</strong> – Crisp & spiced. ₹200</li>
+      <li><strong>Gulab Jamun</strong> – Warm Indian dessert. ₹90</li>
+    </ul>
+  </section>
+  <a href="home.html" style="margin: 0 20px; text-decoration: none;">Home</a><br />
+    <a href="menu.html" style="margin: 0 20px; text-decoration: none;">Menu</a><br />
+
+  <footer>
+    <p>&copy; 2025 Indian 7s Restaurant</p>
+  </footer>
+</body>
+</html>
+``````
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/1a59188d-a094-4bc0-b24f-bc817ae5f8eb)
+
+![image](https://github.com/user-attachments/assets/06fd4846-a07a-4d91-a4bc-63d630608284)
+
+
 
 
 ## RESULT:
